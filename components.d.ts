@@ -11,11 +11,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AddForm: typeof import('./src/components/AddForm.vue')['default']
     AddTaskForm: typeof import('./src/components/AddTaskForm.vue')['default']
     AppBar: typeof import('./src/components/AppBar.vue')['default']
     FilterTasks: typeof import('./src/components/FilterTasks.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HistoryActions: typeof import('./src/components/HistoryActions.vue')['default']
     ListTasks: typeof import('./src/components/ListTasks.vue')['default']
     StatTasks: typeof import('./src/components/StatTasks.vue')['default']
